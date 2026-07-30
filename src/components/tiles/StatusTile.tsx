@@ -54,7 +54,7 @@ export default function StatusTile({ className }: { className?: string }) {
 					</li>
 				</ul>
 			</CardContent>
-			<CardFooter className="flex gap-2">
+			<CardFooter>
 				<p className="text-muted-foreground text-xs">
 					Updated this week
 				</p>
