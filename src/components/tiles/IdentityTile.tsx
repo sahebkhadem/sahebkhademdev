@@ -40,7 +40,7 @@ export default function IdentityTile({ className }: { className?: string }) {
 					services, REST APIs, and modern CSS.
 				</p>
 			</CardContent>
-			<CardFooter className="flex gap-2">
+			<CardFooter className="flex flex-col items-start gap-2 md:flex-row">
 				<Badge className="rounded-md p-3 text-primary-foreground text-xs">
 					Seeking Junioer / Entry Role
 				</Badge>
