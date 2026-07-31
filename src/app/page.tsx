@@ -1,3 +1,4 @@
+import HowIBuildTile from "@/components/tiles/HowIBuildTile";
 import IdentityTile from "@/components/tiles/IdentityTile";
 import ProjectsTile from "@/components/tiles/projects/ProjectsTile";
 import StatusTile from "@/components/tiles/StatusTile";
@@ -10,6 +11,7 @@ export default function Home() {
 			<StatusTile className="md:col-span-5 md:row-span-4" />
 			<TechStackTile className="md:col-span-4 md:row-span-8" />
 			<ProjectsTile className="md:col-span-8 md:row-span-5" />
+			<HowIBuildTile className="md:col-span-5 md:row-span-3" />
 		</main>
 	);
 }
