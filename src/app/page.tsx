@@ -1,3 +1,4 @@
+import ConnectTile from "@/components/tiles/ConnectTile";
 import HowIBuildTile from "@/components/tiles/HowIBuildTile";
 import IdentityTile from "@/components/tiles/IdentityTile";
 import ProjectsTile from "@/components/tiles/projects/ProjectsTile";
@@ -12,6 +13,7 @@ export default function Home() {
 			<TechStackTile className="md:col-span-4 md:row-span-8" />
 			<ProjectsTile className="md:col-span-8 md:row-span-5" />
 			<HowIBuildTile className="md:col-span-5 md:row-span-3" />
+			<ConnectTile className="md:col-span-3 md:row-span-3" />
 		</main>
 	);
 }
