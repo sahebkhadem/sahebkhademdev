@@ -16,7 +16,7 @@
 [![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)](https://biomejs.dev/)
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-**[Live Version](<>)**
+**[Live Version](https://sahebkhademdev.vercel.app/)**
 
 </div>
 
