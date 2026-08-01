@@ -21,7 +21,7 @@ export const projects: Project[] = [
 			"tailwindcss",
 			"shadcn/ui",
 			"zod",
-			"prisma"
+			"drizzle"
 		],
 		liveDemoLink: "https://prospera-beryl.vercel.app/",
 		gitHubLink: "https://github.com/sahebkhadem/prospera"
@@ -39,7 +39,8 @@ export const projects: Project[] = [
 			"tailwindcss",
 			"shadcn/ui",
 			"zod",
-			"zustand"
+			"zustand",
+			"prisma"
 		],
 		liveDemoLink: "https://risto-peach.vercel.app/",
 		gitHubLink: "https://github.com/sahebkhadem/risto"
