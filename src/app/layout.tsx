@@ -25,7 +25,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: "Saheb Khadem",
 	description:
-		"Personal portfolio of Saheb Khadem, a web developer specializing in building modern, high-performance web applications."
+		"Web developer specializing in Next.js, React, and TypeScript. Available for freelance projects. Crypto payments accepted."
 };
 
 export default function RootLayout({

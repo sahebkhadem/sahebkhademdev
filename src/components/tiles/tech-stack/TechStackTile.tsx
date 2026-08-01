@@ -89,7 +89,7 @@ export default function TechStackTile({ className }: { className?: string }) {
 			</CardContent>
 			<CardFooter>
 				<p className="text-muted-foreground text-xs">
-					Fronteend focused, backend equipped
+					Frontend-focused, backend-equipped
 				</p>
 			</CardFooter>
 		</Card>

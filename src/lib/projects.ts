@@ -12,7 +12,7 @@ export const projects: Project[] = [
 		id: "prospera-finance-tracker",
 		title: "Prospera",
 		description:
-			"Smart, simple, and high-performance personal finance tracker.",
+			"Personal finance tracker with accounts, budgets, categories, and auto-calculated spending.",
 		tags: [
 			"nextjs",
 			"react",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
 		id: "risto-anime-tracker",
 		title: "Risto",
 		description:
-			"A modern anime tracker for enthusiasts.Track, organize, and manage your anime watchlist with a beautiful, intuitive interface.",
+			"Anime watchlist tracker with status management, filtering, and a clean modern interface.",
 		tags: [
 			"nextjs",
 			"react",

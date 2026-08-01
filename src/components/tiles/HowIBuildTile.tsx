@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import { cn } from "@/lib/utils";
 
-export default function IdentityTile({ className }: { className?: string }) {
+export default function HowIBuildTile({ className }: { className?: string }) {
 	return (
 		<Card
 			className={cn(
@@ -21,46 +21,44 @@ export default function IdentityTile({ className }: { className?: string }) {
 				</CardTitle>
 			</CardHeader>
 			<CardContent>
-				<CardContent>
-					<ul className="space-y-3 font-sans text-sm">
-						<li className="flex items-start">
-							<span className="text-primary before:mr-2 before:text-xl before:leading-none before:content-['•']"></span>
-							<div>
-								<span className="mr-1 font-light">
-									Type Safety:
-								</span>
-								<span className="font-bold">
-									Strict TypeScript usage across client
-									components and server routes.
-								</span>
-							</div>
-						</li>
-						<li className="flex items-start">
-							<span className="text-primary before:mr-2 before:text-xl before:leading-none before:content-['•']"></span>
-							<div>
-								<span className="mr-1 font-light">
-									Full-Stack Flow:
-								</span>
-								<span className="font-bold">
-									Building structured REST APIs and querying
-									databases cleanly.
-								</span>
-							</div>
-						</li>
-						<li className="flex items-start">
-							<span className="text-primary before:mr-2 before:text-xl before:leading-none before:content-['•']"></span>
-							<div>
-								<span className="mr-1 font-light">
-									Responsive & Accessible:
-								</span>
-								<span className="font-bold">
-									Mobile-first styling with semantic HTML
-									markup.
-								</span>
-							</div>
-						</li>
-					</ul>
-				</CardContent>
+				<ul className="space-y-3 font-sans text-sm">
+					<li className="flex items-start">
+						<span className="text-primary before:mr-2 before:text-xl before:leading-none before:content-['•']"></span>
+						<div>
+							<span className="mr-1 font-light">
+								Type Safety:
+							</span>
+							<span className="font-bold">
+								Strict TypeScript across client components,
+								server routes, and API handlers.
+							</span>
+						</div>
+					</li>
+					<li className="flex items-start">
+						<span className="text-primary before:mr-2 before:text-xl before:leading-none before:content-['•']"></span>
+						<div>
+							<span className="mr-1 font-light">
+								Full-Stack Flow:
+							</span>
+							<span className="font-bold">
+								Structured REST APIs + clean database queries
+								(Prisma / Drizzle + PostgreSQL / MongoDB).
+							</span>
+						</div>
+					</li>
+					<li className="flex items-start">
+						<span className="text-primary before:mr-2 before:text-xl before:leading-none before:content-['•']"></span>
+						<div>
+							<span className="mr-1 font-light">
+								Responsive & Accessible:
+							</span>
+							<span className="font-bold">
+								Mobile-first layouts with semantic HTML and
+								consistent spacing systems.
+							</span>
+						</div>
+					</li>
+				</ul>
 			</CardContent>
 		</Card>
 	);

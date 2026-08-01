@@ -6,7 +6,7 @@ import ProjectCard from "@/components/tiles/projects/ProjectCard";
 import { projects } from "@/lib/projects";
 import { cn } from "@/lib/utils";
 
-export default function TechStackTile({ className }: { className?: string }) {
+export default function ProjectsTile({ className }: { className?: string }) {
 	return (
 		<Card
 			className={cn(

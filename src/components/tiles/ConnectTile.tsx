@@ -2,11 +2,17 @@ import Link from "next/link";
 
 import { ArrowUpRight, ChevronRight, GitBranch, Mail } from "lucide-react";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+	Card,
+	CardContent,
+	CardFooter,
+	CardHeader,
+	CardTitle
+} from "@/components/ui/card";
 
 import { cn } from "@/lib/utils";
 
-export default function IdentityTile({ className }: { className?: string }) {
+export default function ConnectTile({ className }: { className?: string }) {
 	return (
 		<Card
 			className={cn(
@@ -23,35 +29,39 @@ export default function IdentityTile({ className }: { className?: string }) {
 				</CardTitle>
 			</CardHeader>
 			<CardContent>
-				<CardContent className="p-0">
-					<div className="flex flex-col gap-2">
-						<Link
-							href="mailto:saheb1379@gmail.com"
-							className="flex items-center justify-between gap-2 rounded-md border border-accent bg-accent/50 p-2 transition-colors hover:bg-accent/75"
-						>
-							<div className="flex gap-2">
-								<Mail size={18} />
-								<span>Email</span>
-							</div>
+				<div className="flex flex-col gap-2">
+					<Link
+						href="mailto:saheb1379@gmail.com"
+						className="flex items-center justify-between gap-2 rounded-md border border-accent bg-accent/50 p-2 transition-colors hover:bg-accent/75"
+					>
+						<div className="flex gap-2">
+							<Mail size={18} />
+							<span>Email</span>
+						</div>
 
-							<ArrowUpRight size={18} />
-						</Link>
-						<Link
-							href="https://github.com/sahebkhadem"
-							target="_blank"
-							className="flex items-center justify-between gap-2 rounded-md border border-accent bg-accent/50 p-2 transition-colors hover:bg-accent/75"
-							rel="noopener"
-						>
-							<div className="flex gap-2">
-								<GitBranch size={18} />
-								<span>GitHub</span>
-							</div>
+						<ArrowUpRight size={18} />
+					</Link>
+					<Link
+						href="https://github.com/sahebkhadem"
+						target="_blank"
+						className="flex items-center justify-between gap-2 rounded-md border border-accent bg-accent/50 p-2 transition-colors hover:bg-accent/75"
+						rel="noopener"
+					>
+						<div className="flex gap-2">
+							<GitBranch size={18} />
+							<span>GitHub</span>
+						</div>
 
-							<ArrowUpRight size={18} />
-						</Link>
-					</div>
-				</CardContent>
+						<ArrowUpRight size={18} />
+					</Link>
+				</div>
 			</CardContent>
+			<CardFooter>
+				<p className="text-muted-foreground text-xs">
+					Available for small Next.js projects, components, and bug
+					fixes. Async / text-first. Crypto payments welcome.
+				</p>
+			</CardFooter>
 		</Card>
 	);
 }

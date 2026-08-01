@@ -32,17 +32,17 @@ export default function IdentityTile({ className }: { className?: string }) {
 					Saheb Khadem
 				</h1>
 				<h2 className="my-1 font-bold font-sans text-primary text-xl">
-					Junior Web Developer
+					Web Developer
 				</h2>
 				<p className="font-mono text-muted-foreground text-sm">
-					Self-taught develiper building web applications using React,
-					Next.js, and TypeScript. Experienced with Node.js backend
-					services, REST APIs, and modern CSS.
+					Self-taught developer building production web apps with
+					Next.js, React, and TypeScript. Comfortable with full-stack
+					work: REST APIs, databases, and modern UI.
 				</p>
 			</CardContent>
 			<CardFooter className="flex flex-col items-start gap-2 md:flex-row">
 				<Badge className="rounded-md p-3 text-primary-foreground text-xs">
-					Seeking Junioer / Entry Role
+					Open to Freelance
 				</Badge>
 				<Badge className="rounded-md p-3 text-primary-foreground text-xs">
 					Full-Stack Capable
