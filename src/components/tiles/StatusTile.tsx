@@ -40,21 +40,17 @@ export default function StatusTile({ className }: { className?: string }) {
 				<ul className="list-none font-sans text-sm">
 					<li className="flex gap-1">
 						<span className="font-light">Target:</span>
-						<p className="font-bold">Freelance / Contract</p>
+						<p className="font-bold">Junior Web Dev / Full-Stack</p>
 					</li>
 					<li className="flex gap-1">
 						<span className="font-light">Location:</span>
-						<p className="font-bold">Remote</p>
+						<p className="font-bold">Iran</p>
 					</li>
 					<li className="flex gap-1">
 						<span className="font-light">Focus:</span>
 						<p className="font-bold">
 							Next.js, React, TypeScript, Tailwind CSS, Node.js
 						</p>
-					</li>
-					<li className="flex gap-1">
-						<span className="font-light">Payment:</span>
-						<p className="font-bold">USDT / USDC accepted</p>
 					</li>
 				</ul>
 			</CardContent>

@@ -2,13 +2,7 @@ import Link from "next/link";
 
 import { ArrowUpRight, ChevronRight, GitBranch, Mail } from "lucide-react";
 
-import {
-	Card,
-	CardContent,
-	CardFooter,
-	CardHeader,
-	CardTitle
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import { cn } from "@/lib/utils";
 
@@ -56,12 +50,6 @@ export default function ConnectTile({ className }: { className?: string }) {
 					</Link>
 				</div>
 			</CardContent>
-			<CardFooter>
-				<p className="text-muted-foreground text-xs">
-					Available for small Next.js projects, components, and bug
-					fixes. Async / text-first. Crypto payments welcome.
-				</p>
-			</CardFooter>
 		</Card>
 	);
 }

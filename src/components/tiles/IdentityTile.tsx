@@ -42,7 +42,7 @@ export default function IdentityTile({ className }: { className?: string }) {
 			</CardContent>
 			<CardFooter className="flex flex-col items-start gap-2 md:flex-row">
 				<Badge className="rounded-md p-3 text-primary-foreground text-xs">
-					Open to Freelance
+					Seeking Junioer / Entry Role
 				</Badge>
 				<Badge className="rounded-md p-3 text-primary-foreground text-xs">
 					Full-Stack Capable
